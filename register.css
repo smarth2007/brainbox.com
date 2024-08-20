@@ -1,0 +1,124 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #000000;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.registration {
+
+    font-family: monospace;
+    /* box-shadow: 2px 2px 4px rgba(62, 60, 60, 0.1); */
+    background-color: #0c0c0c76;
+    padding: 5px 10px;
+    width: 400px;
+    /* text-align: center; */
+    border-radius: 10px;
+}
+
+
+
+
+
+
+h2 {
+    font-family: 'Cambria';
+    margin: 5px;
+    color: #f4f4f4;
+    font-size: 24px;
+}
+
+p {
+    color: #fcfafa;
+    font-size: 16px;
+}
+
+a {
+    color: #2e529b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.profile-photo:hover {
+    transform: scale(1.3);
+}
+
+@media only screen and (max-width:768px) {
+    #businessCard {
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+#submit-btn {
+    border-color: #0d327e;
+    background-color: transparent;
+
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 380px;
+    color: #0d327e;
+    height: 30px;
+
+
+}
+
+.firsttab {
+    height: 25px;
+    border-color: #141515;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 18px;
+
+
+}
+
+.secondtab {
+    height: 25px;
+    border-color: #141515;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 18px;
+
+
+}
+
+.thirdtab {
+    height: 25px;
+    border-color: #141515;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 18px;
+
+
+}
+
+#welcome {
+    text-align: left;
+    color: #d4d3d3;
+}
+
+#identity {
+    text-align: left;
+    color: #2e529b;
+}
+
+
+#Email-preferences {
+    accent-color: #2e529b;
+    color: #d4d3d3;
+
+}
+
+.arrow {
+    color: #2e529b;
+    font-weight: bolder;
+    font-size: 24px;
+}
